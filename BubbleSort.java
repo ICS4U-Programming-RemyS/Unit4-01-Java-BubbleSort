@@ -55,8 +55,7 @@ final class BubbleSort {
         // For loop to generate random integers between 1 and 100
         for (int index = 0; index < randomArray.length; index++) {
             randomArray[index] = (int)
-            (Math.random() * (MAX_RANDOM_NUMBER - MIN_RANDOM_NUMBER + 1)
-                    + MIN_RANDOM_NUMBER);
+            (Math.random() * (MAX_RANDOM_NUMBER) + MIN_RANDOM_NUMBER);
         }
 
         // Display the unsorted array
